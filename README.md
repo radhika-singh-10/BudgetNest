@@ -52,7 +52,10 @@ budget-nest/
     ── tests/
      ── test_expense.py          # Unit tests
 
-── requirements.txt             # Python dependencies
-── alembic.ini                  # Alembic DB migrations
+── requirements.txt             
+
+── alembic.ini                 
+
 ── README.md
-── .env                         # Environment variables (e.g., DB URL)
+
+── .env                         
