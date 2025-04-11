@@ -58,4 +58,49 @@ budget-nest/
 
 ── README.md
 
-── .env                         
+── .env    
+
+
+
+🔧 Tech Stack:
+Backend: Python (Flask / FastAPI)
+
+Database: PostgreSQL (SQL)
+
+ORM: SQLAlchemy
+
+Hosting: AWS RDS + EC2 / Render / Railway / Supabase
+
+Design Patterns:
+
+Factory Pattern: For creating different types of users or reports
+
+Repository Pattern: Abstract SQL operations
+
+Singleton Pattern: DB connection management
+
+Strategy Pattern: Different algorithms for budget analysis
+
+Observer Pattern: Notify users when budget thresholds are crossed
+
+🧱 Core Features:
+✅ User registration/login (multi-tenant support)
+
+✅ Add/view/edit expenses
+
+✅ Expense categories
+
+✅ Budget tracking
+
+✅ Email alerts on threshold breach
+
+✅ Team-level dashboards (for each tenant)
+
+💡 Bonus Add-Ons:
+Generate PDF reports using Factory pattern
+
+Use REST API endpoints with FastAPI
+
+Deploy to cloud and expose public API
+
+
